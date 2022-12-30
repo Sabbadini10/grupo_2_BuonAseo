@@ -60,7 +60,7 @@ app.use('/footer', footerRouter);
 app.use('/categories', categoriesRouter);
 
 //rutas para appi
-app.use('/api/carts', apiCartRouter);
+app.use('/api/cart', apiCartRouter);
 app.use('/api/main', apiMainRouter);
 app.use('/api/products', apiProductsRouter);
 app.use('/api/users', apiUsersRouter);
